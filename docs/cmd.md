@@ -1,4 +1,4 @@
-<p align="left"><img src="../img/logo_cmd.png" width="100px" height="100x"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948422-9e272880-14b3-11eb-9672-cd10c2032412.png" width="100px" height="100x"></p>
 
 # Windows Command Prompt
 

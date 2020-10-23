@@ -1,4 +1,4 @@
-<p align="left"><img src="../img/logo_csharp.png" width="100px" height="100x"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948462-b5feac80-14b3-11eb-9c68-27c574f46037.png" width="100px" height="100x"></p>
 
 # C# (.Net)
 

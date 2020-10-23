@@ -1,4 +1,4 @@
-<p align="left"><img src="../img/logo_powershell.png" width="100px" height="100x"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948663-2dccd700-14b4-11eb-9d41-af5a17a41f4a.png" width="100px" height="100x"></p>
 
 # Powershell
 

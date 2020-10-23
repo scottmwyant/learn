@@ -1,4 +1,4 @@
-<p align="left"><img src="../img/logo_nodejs.png" width="100px" height="100x"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948599-0d9d1800-14b4-11eb-86ab-d7773eb713a3.png" width="100px" height="100x"></p>
 
 # NodeJS
 

@@ -1,4 +1,4 @@
-<p align="left"><img src="../img/logo_git.png" width="100px" height="100x"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948500-cc0c6d00-14b3-11eb-997d-b64e3d8df340.png" width="100px" height="100x"></p>
 
 # Git
 

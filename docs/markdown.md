@@ -1,4 +1,4 @@
-<p align="left"><img src="../img/logo_markdown.png" width="100px" height="100x"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948539-e5adb480-14b3-11eb-90d1-fea00748f0f7.png" width="100px" height="100x"></p>
 
 # Markdown
 

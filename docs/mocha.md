@@ -1,4 +1,4 @@
-<p align="left"><img src="../img/logo_mocha.png" width="100px" height="100px"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948560-f5c59400-14b3-11eb-847e-17aaf29190f2.png" width="100px" height="100px"></p>
 
 # MochaJS
 

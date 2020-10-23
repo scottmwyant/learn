@@ -1,4 +1,4 @@
-<p align="left"><img src="../img/logo_npm.png" width="100px" height="100x"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948630-1e4d8e00-14b4-11eb-8af7-b812b1efc747.png" width="100px" height="100x"></p>
 
 # Node Package Manager (NPM)
 

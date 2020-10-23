@@ -1,3 +1,5 @@
+<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948787-6bc9fb00-14b4-11eb-989e-a299930c1cb6.png" width="100px" height="100x"></p>
+
 # VS Code Extensions
 
 How to author a VS Code extension (.visx package).

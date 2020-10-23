@@ -1,4 +1,4 @@
-<p align="left"><img src="../img/logo_typescript.png" width="100px" height="100x"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948757-5a80ee80-14b4-11eb-9461-b6cd475a9776.png" width="100px" height="100x"></p>
 
 # TypeScript
 

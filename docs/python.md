@@ -1,4 +1,4 @@
-<p align="left"><img src="../img/logo_python.png" width="100px" height="100x"></p>
+<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948712-46d58800-14b4-11eb-8952-cd5df50a0ab0.png" width="100px" height="100x"></p>
 
 # Python
 

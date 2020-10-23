@@ -10,6 +10,7 @@
   - [PowerShell](powershell.md)
   - [Python](python.md)
   - [RegEx](regex.md)
+  - [Tools](tools.md)
   - [Tree](tree.md)
   - [TypeScript](typescript.md)
   - [VS Code](vscode.md)

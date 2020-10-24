@@ -1,10 +1,10 @@
-<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948630-1e4d8e00-14b4-11eb-8af7-b812b1efc747.png" width="100px" height="100x"></p>
+<img class="logo" src="https://user-images.githubusercontent.com/29161635/96948630-1e4d8e00-14b4-11eb-8af7-b812b1efc747.png" width="100px" height="100px">
 
 # Node Package Manager (NPM)
 
 Developers can share NodeJS packages through the *Node Package Manager (NPM)*.  You will interact with NPM through the command line, just as with NodeJS.
 
-## Official Resources
+## Official resources
 
 - **[NPM Home](https://www.npmjs.com/)**
 - **[CLI Documentation](https://docs.npmjs.com/cli-documentation/)**

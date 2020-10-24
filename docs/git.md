@@ -1,19 +1,16 @@
-<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948500-cc0c6d00-14b3-11eb-997d-b64e3d8df340.png" width="100px" height="100x"></p>
+<img class="logo" src="https://user-images.githubusercontent.com/29161635/96948500-cc0c6d00-14b3-11eb-997d-b64e3d8df340.png" width="100px" height="100px">
 
 # Git
 
 Git is probably the most popular version control system among developers.
 
-## Download and Install  Git from https://git-scm.com/
+## Official resources
 
-## Workflows
+- [git-scm.com](https://git-scm.com)
+- [git-scm.com/docs](https://git-scm.com/docs)
+- [git-scm.com/downloads](https://git-scm.com/downloads)
 
-## Official Resources
-- **[Home](https://git-scm.com)**
-- **[Documentation](https://git-scm.com/docs)**
-- **[Downloads](https://git-scm.com/downloads)**
-
-## Additional Resources
+## Third party resources
 
 **General**
 

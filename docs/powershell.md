@@ -1,12 +1,13 @@
-<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948663-2dccd700-14b4-11eb-9d41-af5a17a41f4a.png" width="100px" height="100x"></p>
+<img class="logo" src="https://user-images.githubusercontent.com/29161635/96948663-2dccd700-14b4-11eb-9d41-af5a17a41f4a.png" width="100px" height="100px">
 
-# Powershell
+# PowerShell
 
-Windows Powershell is an evolution of the classic windows shell, *cmd.exe*.  The big advantages of powershell over CMD is that powershell supports use of the .NET framework and object oriented scripting.
+PowerShell is an evolution of the classic windows shell, [cmd.exe](./cmd.md).  The primary benefits of PowerShell over CMD is that it is buit upon the [.NET Framework](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework) and supports object oriented scripting.
 
-## Official Resources
+## Official resources
 
-- **[PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/?view=powershell-6)**
+- [What is PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
+- [PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/?view=powershell-7)
 
 ## Gists
 

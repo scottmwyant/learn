@@ -1,16 +1,16 @@
-<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948599-0d9d1800-14b4-11eb-86ab-d7773eb713a3.png" width="100px" height="100x"></p>
+<img class="logo" src="https://user-images.githubusercontent.com/29161635/96948599-0d9d1800-14b4-11eb-86ab-d7773eb713a3.png" width="100px" height="100px">
 
 # NodeJS
 
-Node JS is a JavaScript runtime that exists outside of a web browser.  Historically, JavaScript is loaded into a browser as part of a webpage and each browser has it's own JavaScript engine which executes the code.  Node is a stand-alone JavaScript engine; the idea is to be able to execute JavaScript code without a web browser.  The primary use case is for back-end web.  Using the Node runtime, developers can use JavaScript to handle requests on the server.
+Node JS is a JavaScript runtime that exists outside of a web browser.  Traditionally, JavaScript is loaded into a browser as part of a webpage and each browser has it's own JavaScript engine which executes the code.  Node is a stand-alone JavaScript engine; the idea is to be able to execute JavaScript code without a web browser.  The primary use case is for back-end web.  Using the Node runtime, developers can use JavaScript to handle requests on the server.
 
 ## Official resources
 
-- **[Home](https://nodejs.org/en/)**
-- **[Download](https://nodejs.org/en/download/)**
-- **[Documentation](https://nodejs.org/en/docs/)**
+- https://nodejs.org/en/
+- https://nodejs.org/en/download/
+- https://nodejs.org/en/docs/
 
-## 3rd Party Resources
+## Third party resources
 
 - [How to build a command line tool in NodeJS](https://blog.bitsrc.io/how-to-build-a-command-line-cli-tool-in-nodejs-b8072b291f81)
 

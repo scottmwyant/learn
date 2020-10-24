@@ -1,18 +1,14 @@
-<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948462-b5feac80-14b3-11eb-9c68-27c574f46037.png" width="100px" height="100x"></p>
+<img class="logo" src="https://user-images.githubusercontent.com/29161635/96948462-b5feac80-14b3-11eb-9c68-27c574f46037.png" width="100px" height="100px">
 
-# C# (.Net)
+# C#
 
-Probably the most popular language for working with Microsoft's .NET Framework, C# supports object oriented programming, strong typing, and polymorphism.
+Perhaps the most popular language for working with Microsoft's [.NET Framework](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework), C# supports object oriented programming, strong typing, and polymorphism.
 
-Microsoft markets C# as a general-use language.  I find the language feels like it comes with quite a bit of "overhead".  Although it is one of my personal favorites, I struggle to consider it for light duty uses.  In my opinion, it really feels like it is made for large systems and complex applications.
-
-Tools like Python, NodeJS and maybe even TypeScript are really more fit for purpose when I consider what I find myself doing most often.  That said, C# and Visual Studio are incredible nice tools to work with and after spending some time in that ecosystem, a lot of other languages can feel quick and dirty.
-
-## Official Resources
+## Official resources
 
 - [Microsoft C# Guide](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
-## Additional Resources
+## Third party resources
 
 **Podcasts**
 

@@ -1,4 +1,4 @@
-<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948560-f5c59400-14b3-11eb-847e-17aaf29190f2.png" width="100px" height="100px"></p>
+<img class="logo" src="https://user-images.githubusercontent.com/29161635/96948560-f5c59400-14b3-11eb-847e-17aaf29190f2.png" width="100px" height="100px">
 
 # MochaJS
 
@@ -6,9 +6,9 @@ MochaJS is a unit testing framework.  A unit test framework is a tool used durin
 
 ## Official resources
 
-- **[Home](https://mochajs.org/)**
-- **[Download](https://www.npmjs.com/package/mocha)**
-- **[Documentation](https://mochajs.org/#table-of-contents)**
+- https://mochajs.org/
+- https://www.npmjs.com/package/mocha
+- https://mochajs.org/#table-of-contents
 
 ## NodeJS
 
@@ -18,6 +18,7 @@ MochaJS is a unit testing framework.  A unit test framework is a tool used durin
 4. Mocha will look for tests in `./test/*.js`, override the default with a command line argument or a configuration object in package.json.  More on [command line usage](https://mochajs.org/#command-line-usage) and examples of [config files](https://github.com/mochajs/mocha/tree/master/example/config).
 
 5. Define some tests.  Here is an example, call it `./test/sample.js`.
+
 ```javascript
 // Use one of these assertion libraries
 const assert = require('assert');
@@ -37,12 +38,13 @@ describe('Describe ncscript...', function () {
 ```
 
 6. Here is some sample code to test, call it `./src/index.js`
+
 ```javascript
 // Just export a constant to demonstrate the concept
 exports.myValueForPi = 3.1415926;
 ```
-7. Invoke mocha: `npm run test`
 
+7. Invoke mocha: `npm run test`
 
 ## In the Browser
 

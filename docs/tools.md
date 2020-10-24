@@ -12,4 +12,4 @@
 
 ## Hardware
 
-[Crucial MX500 250GB 3D NAND SATA 2.5 Inch Internal SSD, up to 560MB/s - CT250MX500SSD1(Z)](https://www.amazon.com/dp/B0764WCXCV/ref=cm_sw_em_r_mt_dp_GuKKFbKX4N6H8?_encoding=UTF8&psc=1)
+- [Crucial MX500 250GB 3D NAND SATA 2.5 Inch Internal SSD, up to 560MB/s - CT250MX500SSD1(Z)](https://www.amazon.com/dp/B0764WCXCV/ref=cm_sw_em_r_mt_dp_GuKKFbKX4N6H8?_encoding=UTF8&psc=1)

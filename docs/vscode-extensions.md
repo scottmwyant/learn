@@ -1,10 +1,10 @@
-<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948787-6bc9fb00-14b4-11eb-989e-a299930c1cb6.png" width="100px" height="100x"></p>
+<img class="logo" src="https://user-images.githubusercontent.com/29161635/96948787-6bc9fb00-14b4-11eb-989e-a299930c1cb6.png" width="100px" height="100px">
 
 # VS Code Extensions
 
 How to author a VS Code extension (.visx package).
 
-## Official Resources
+## Official resources
 
 - **[Extension Manifest (Package.json)](https://code.visualstudio.com/api/references/extension-manifest)**
 - **[Help with package.json](https://code.visualstudio.com/docs/extensionAPI/extension-manifest)**

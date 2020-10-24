@@ -1,8 +1,8 @@
-<p align="left"><img src="https://user-images.githubusercontent.com/29161635/96948787-6bc9fb00-14b4-11eb-989e-a299930c1cb6.png" width="100px" height="100x"></p>
+<img class="logo" src="https://user-images.githubusercontent.com/29161635/96948787-6bc9fb00-14b4-11eb-989e-a299930c1cb6.png" width="100px" height="100px">
 
 # Visual Studio Code
 
-## Official Resources
+## Official resources
 - **[Home](https://code.visualstudio.com/)**
 - **[Keyboard Shortcuts](https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference)**
 - **[CLI Options](https://code.visualstudio.com/docs/editor/command-line)**

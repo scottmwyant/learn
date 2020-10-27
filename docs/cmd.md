@@ -1,4 +1,4 @@
-<img class="logo" src="https://user-images.githubusercontent.com/29161635/97065025-71891480-1578-11eb-9eff-bd68b852a3a5.png" width="100px" height="100x">
+<img class="logo" src="https://user-images.githubusercontent.com/29161635/97065025-71891480-1578-11eb-9eff-bd68b852a3a5.png" width="100px" height="100px">
 
 # cmd.exe
 

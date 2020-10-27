@@ -1,4 +1,4 @@
-<img class="logo" src="https://user-images.githubusercontent.com/29161635/97246503-e4da9280-17d3-11eb-82b1-923cc13d2fd2.png" width="100px" height="100x">
+<img class="logo" src="https://user-images.githubusercontent.com/29161635/97246503-e4da9280-17d3-11eb-82b1-923cc13d2fd2.png" width="100px" height="100px">
 
 # GitHub Actions
 

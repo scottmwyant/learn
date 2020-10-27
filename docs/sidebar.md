@@ -3,6 +3,7 @@
   - [cmd](cmd.md)
   - [C#](csharp.md)
   - [git](git.md)
+  - [GitHub Actions](actions.md)
   - [Markdown](markdown.md)
   - [MochaJS](mocha.md)
   - [NodeJS](node.md)

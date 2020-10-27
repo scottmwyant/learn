@@ -15,7 +15,7 @@ Note that concepts used in GitHub Actions and even some of the GUI elements are 
 
 ## Notes
 
-**Using Docker Environment Variables**
+### Using Docker Environment Variables
 
 Refer to this documentation on GitHub...
 

@@ -7,6 +7,7 @@ A simplified syntax for writing documentation that will be presented on the web.
 ## Official resources
 
  - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+ - [GitHub - Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
  
 ## Third party resources
 

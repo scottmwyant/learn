@@ -33,3 +33,4 @@ This site is a essentially an organized collection of resources I have found to 
 
 - [GIMP - GNU Image Manipulation Program](https://www.gimp.org/)
 - [Postman](https://www.postman.com/)
+- [GifCam](http://www.bahraniapps.com/apps/gifcam/gifcam.php)

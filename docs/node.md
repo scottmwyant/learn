@@ -25,3 +25,8 @@ Open a console window in the directory with your test file.  Run the command:
 `node test.js`
 
 You should see *Hello World* output to the console window.
+
+
+## CLI Apps
+
+Node is popular for CLI apps; there are a few really great packages on the npm registry for parsing command line options.  Check out the template provided in this repository, [./templates/node-cli](../templates/node-cli).  I've included in the template an example of how to use `yargs` parser.

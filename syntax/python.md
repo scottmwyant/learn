@@ -1,13 +1,24 @@
-Find the official documentation here: https://docs.python.org/3/reference/
+Find the official documentation here: https://docs.python.org/3/library/
 
-## Assignment and comparison
+## Operators
+
+- https://docs.python.org/3/library/operator.html#mapping-operators-to-functions
+- https://www.w3schools.com/python/python_operators.asp
 
 ```python
 a = 1
 b = (5-3)
-print(a == b) # False
-print(a > b)  # False
-print(a <= b) # True
+print(a == b)   # False
+print(a > b)    # False
+print(a <= b)   # True
+print(a + b)    # 3
+print(b - a)    # 1
+print(a * b)    # 2
+print(a / b)    # 0.5
+print(3**2)     # 9
+print(22 // 7)  # 3
+print(22 % 7)   # 1
+
 ```
 
 ## Flow control

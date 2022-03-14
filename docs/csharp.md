@@ -23,3 +23,49 @@ Perhaps the most popular language for working with Microsoft's [.NET Framework](
 - [Clean Code: A Handbook of Agile Software Craftsmanship 1st Edition](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 
 - [Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series) 1st Edition](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=1KTFDPMH4T7FJSD7ECD2)
+
+## Compiling source code
+
+C# is compiled down to intermediate language (IL, MSIL).  Compilation is one step in the build process.  .NET projects are built with MSBUILD, which is typically called by an IDE like Visual Studio, but it can be used directly from the command line.  In modern .NET projects (aka .Net Core, .NET5 and up) the dotnet cli wraps MSBUILD.  Use commands like `dotnet restore`, `dotnet clean`, `dotnet build`, and `dotnet publish`.  See https://docs.microsoft.com/en-us/dotnet/core/tools/.
+
+## Building in VS Code
+
+Configure a build task in `.vscode/tasks.json`.  Here's an example:
+
+```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "dotnet publish",
+      "type": "shell",
+      "command": "dotnet publish -c Release -r win-x64 --no-self-contained -o dist src",
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+    }
+  ]
+}
+
+```
+
+## Frequently used options for MSBUILD
+
+Traditionally, MSBUILD is configured in the `.csproj` file:
+
+```
+<PropertyGroup>
+    <DebugType>None</DebugType>
+    <PublishSingleFile>true</PublishSingleFile>
+</PropertyGroup>
+```
+Options can also be passed through the dotnet cli with the `-p:<key>=<value>` snytax:
+
+`-p:DebugType=None`
+
+Suppress output of .pdb files, which are used for debugging.  See https://stackoverflow.com/q/5457095.
+
+`-p:PublishSingleFile=true`
+
+Specifies single-file publishing.  Requires either `--self-contained` or `--no-self-contained`, along with a runtime identifier, ex. `-r win-x64`.  See [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/deploying/single-file/overview#publish-a-single-file-app---sample-project-file).

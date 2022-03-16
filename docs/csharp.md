@@ -26,7 +26,22 @@ Perhaps the most popular language for working with Microsoft's [.NET Framework](
 
 ## Compiling source code
 
-C# is compiled down to intermediate language (IL, MSIL).  Compilation is one step in the build process.  .NET projects are built with MSBUILD, which is typically called by an IDE like Visual Studio, but it can be used directly from the command line.  In modern .NET projects (aka .Net Core, .NET5 and up) the dotnet cli wraps MSBUILD.  Use commands like `dotnet restore`, `dotnet clean`, `dotnet build`, and `dotnet publish`.  See https://docs.microsoft.com/en-us/dotnet/core/tools/.
+C# is compiled into intermediate language (known as ["IL" or "MSIL"](https://en.wikipedia.org/wiki/Common_Intermediate_Language)).  Compilation is one step in the build process.  .NET projects are built with MSBUILD, which is typically called by an IDE like Visual Studio, but it can be used directly from the command line.  In modern .NET projects (aka .Net Core, .NET5 and up) the dotnet cli wraps MSBUILD.  Use commands like `dotnet restore`, `dotnet clean`, `dotnet build`, and `dotnet publish`.  See https://docs.microsoft.com/en-us/dotnet/core/tools/.
+
+It is possible to have MSBUILD in multiple places on your system; it comes bundled with installation of Visual Studio, with the C# extension for Visual Studio Code, and can also be installed seperately from the IDE with the [Build Tools](https://visualstudio.microsoft.com/downloads/?q=build+tools) download.
+
+The [C# Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) will look for MSBUILD in the usual places as the extension starts.  Looking at the extension's log output can give you some idea of where you might find it on your system (check the Output pane for the Omnisharp log).
+
+Below is a sample from the Omnisharp log.  The first line references MSBUILD put in place with the 'Build Tools' installer mentioned above.  The second line is showing an instance that's associated with a VS Code extension. Note that these are two seperate versions; using an unexpected version can be problematic.
+
+```
+Visual Studio Build Tools 2019 16.0.28803.916 16.0.462 -
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin"
+
+StandAlone 17.1.0 -
+"C:\Users\user\.vscode\extensions\ms-dotnettools.csharp-1.24.1\.omnisharp\1.38.1\.msbuild\Current\Bin"
+```
+
 
 ## Building in VS Code
 

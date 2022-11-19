@@ -92,7 +92,7 @@ We use `ssh-copy-id` for this step.  The simple form is usually enough here, it 
 ssh-copy-id <user@ip>
 ```
 
-Alternatively, you can specify the key that sent to the remote with the `-i` option.  I think the value supplied needs to be the path to the private key, though it's certainly possible that either form of the key could be valid input.  Regardless of the detail on how the input works the public key (with *.pub* extension) is what's copied to the remote.    
+Alternatively, you can specify the key that is copied to the remote with the `-i` option.  I think the value supplied needs to be the path to the private key, though it's certainly possible that either form of the key could be valid input.  Regardless of the detail on how the input works the public key (with *.pub* extension) is what's copied to the remote.    
 
 ```bash
 ssh-copy-id -i ~/.ssh/mykey user@host

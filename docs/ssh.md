@@ -65,3 +65,39 @@ The key's randomart image is:
 |   .+*++o        |
 +----[SHA256]-----+
 ```
+
+Now that we have a shiny new pair of keys, what's next?
+
+## Remote login
+
+One of the most common use cases for SSH is to login to a remote device.  If it's not clear already, the local device you're working on is the SSH client and the remote device is the SSH server.  The first time we log into a device it's best practice to do so with the "remote" device in your posession, possibly even directly patched to the ethernet port on your laptop.  We're going to read the public key from the device, hash it, and store that hash in a local "known_hosts" file.  Then, when we login to this device in the future, the SSH protocol will check the hash of the public key on the remote and make sure it is what we expect it to be (from the known_hosts file).  This is a security measure to make sure when the remote is truly remote, you are logging into the hardware you think you are.
+
+The second step is to copy your public key to the remote host.  Then the SSH protocol can be used to login to the remote device without the user supplying a password.
+
+### Reading the public key from the remote 
+
+We're going to use `ssh-keyscan` here.  The simplest form of the command is `ssh-keyscan <ip>`, which will read the public key from the remote device, hash it with a few different algorithms, and pipe those results to the console.  In practice, it's common to use the `-t` option to specify the *ecdsa* algorithm, which is used by the default login process.  It's also recommended we use the `-H` option to hash the hostname as well.  This provides an extra layer of security; should your local private key become comprimised, the adversary will not be able to also see a list (in the known_hosts file) of places to use the key.
+
+The form of the command I use is `ssh-keyscan -H -t ecdsa <ip>`.  This will read the private key, hash it and show the result in the console.  We just need to pipe the result to the knnown_hosts file:
+
+```bash
+ssh-keyscan -H -t ecdsa <ip> >> ~/.ssh/knwon_hosts
+```
+
+### Copy your private key to the remote
+
+We use `ssh-copy-id` for this step.  The simple for is usually enough here, it assumes the location of your local private key and therefore the location of the public key that should be sitting right next to it.
+
+```bash
+ssh-copy-id <user@ip>
+```
+
+Alternatively, you can specify the key that sent to the remote with the `-i` option.  I think the value supplied needs to be the path to the private key, though it's certainly possible that either form of the key could be valid input.  Regardless of the detail on how the input works the public key (with *.pub* extension) is what's copied to the remote.    
+
+```bash
+ssh-copy-id -i ~/.ssh/mykey user@host
+```
+
+## Logging In
+
+Now we should be able to login with a simple `ssh user@host`.

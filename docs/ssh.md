@@ -86,7 +86,7 @@ ssh-keyscan -H -t ecdsa <ip> >> ~/.ssh/knwon_hosts
 
 ### Copy your private key to the remote
 
-We use `ssh-copy-id` for this step.  The simple for is usually enough here, it assumes the location of your local private key and therefore the location of the public key that should be sitting right next to it.
+We use `ssh-copy-id` for this step.  The simple form is usually enough here, it assumes the location of your local private key and therefore the location of the public key that should be sitting right next to it.
 
 ```bash
 ssh-copy-id <user@ip>

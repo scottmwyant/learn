@@ -34,7 +34,7 @@ Before you can do anything else, you need to generate a pair of keys.  This page
 
 The following convention is used; the name of the private key file is *filename* and and the public key file is *filename.pub*.
 
-Use `ssh-keygen` to generate a pair of keys.  The default private key is *~/.ssh/id_rsa* and the default public key is *~/.ssh/id_rsa.pub*.  When the key is generated, the private key is hashed to a fingerprint, which is shwon in the terminal.  There is also an "ascii art" generated that gives a graphical representation of the fingerprint.  The fingerprint can be retrieved at any point in the future with `ssh-keygen -lvf <path/to/private/key/file>`.
+Use `ssh-keygen` to generate a pair of keys.  The default private key is *~/.ssh/id_rsa* and the default public key is *~/.ssh/id_rsa.pub*.  When the key is generated, the private key is hashed to a fingerprint, which is shown in the terminal.  There is also an "ascii art" generated that gives a graphical representation of the fingerprint.  The fingerprint can be retrieved at any point in the future with `ssh-keygen -lvf <path/to/private/key/file>`.
 
 ### On Windows
 

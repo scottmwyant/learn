@@ -12,7 +12,7 @@ There are two popular implementations.  OpenSSH is little more "official" feelin
 
 ## On Windows
 
-In many cases the easiest way to use SSH on Windows is to not use Windows, but WSL2.  If you truly need to work with SSH on Windows, there are a few quirks.  Make sure it's available on your system by running `where ssh` in CommandPrompt.  The default installation is in `C:\Windows\System32\OpenSSH` (see below).
+In many cases the easiest way to use SSH on Windows is to not use Windows, but WSL2.  If you truly need to work with SSH on Windows, there are a few quirks.  Make sure it's available on your system by running `where ssh` in CommandPrompt.  The default installation is in *C:\Windows\System32\OpenSSH* (see below).
 
 ```
 C:\>where ssh

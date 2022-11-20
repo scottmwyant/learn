@@ -32,9 +32,7 @@ ssh.exe
 
 Before you can do anything else, you need to generate a pair of keys.  This page will not go into the technical details of asymetric encryption, but we'll provide a very high level explaination for people who are not familiar with the concept.  If you were to use a single key to "lock" (encrypt) and "unlock" (decrypt) a message (like a password) you have the problem of getting the key to the other trusted party in a secure manner.  This single-key approach is "symetric encryption".  This conundrum is solved by "asymetric encryption" which is where you use one key, the "public key" to encrypt and a different key, the "private key" to decrypt.  Using this method, you can freely distribute the public key as long as the private key is safeguarded.
 
-The following convention is used; the name of the private key file is *filename* and and the public key file is *filename.pub*.
-
-Use `ssh-keygen` to generate a pair of keys.  The default private key is *~/.ssh/id_rsa* and the default public key is *~/.ssh/id_rsa.pub*.  When the key is generated, the private key is hashed to a fingerprint, which is shown in the terminal.  There is also an "ascii art" generated that gives a graphical representation of the fingerprint.  The fingerprint can be retrieved at any point in the future with `ssh-keygen -lvf <path/to/private/key/file>`.
+Use `ssh-keygen` to generate a pair of keys.  The name of the private key file is *filename* and and the public key file is *filename.pub*. The default algorithm is *rsa*, resulting in a default private key file *~/.ssh/id_rsa* and the public key file *~/.ssh/id_rsa.pub*.  When the key is generated, the private key is hashed (to a "fingerprint"), which is shown in the terminal.  There is also an "ascii art" generated that gives a graphical representation of the fingerprint.  The fingerprint can be retrieved at any point in the future with `ssh-keygen -lvf <path/to/private/key/file>`.
 
 ### On Windows
 

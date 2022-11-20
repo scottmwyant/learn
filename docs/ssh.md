@@ -70,7 +70,7 @@ Now that we have a shiny new pair of keys, what's next?
 
 ## Remote login
 
-One of the most common use cases for SSH is to login to a remote device.  If it's not clear already, the local device you're working on is the SSH client and the remote device is the SSH server.  The first time we log into a device it's best practice to do so with the "remote" device in your posession, possibly even directly patched to the ethernet port on your laptop.  We're going to read the public key from the device, hash it, and store that hash in a local "known_hosts" file.  Then, when we login to this device in the future, the SSH protocol will check the hash of the public key on the remote and make sure it is what we expect it to be (from the known_hosts file).  This is a security measure to make sure when the remote is truly remote, you are logging into the hardware you think you are.
+One of the most common use cases for SSH is to login to a remote device.  If it's not clear already, the local device you're working on is the SSH client and the remote device is the SSH server.  The first time we log into a device it's best practice to do so with the "remote" device in your posession, possibly even directly patched to the ethernet port on your laptop.  We're going to read the public key from the device and store it in a local "known_hosts" file.  Then, when we login to this device in the future, the SSH protocol will compare the public key on the remote against the value in the local known_hosts file as a security measure to make sure you are logging into the system you think you are.
 
 The second step is to copy your public key to the remote host.  Then the SSH protocol can be used to login to the remote device without the user supplying a password.
 

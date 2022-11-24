@@ -25,7 +25,7 @@ int = (1*2^0) + (0*2^1) + (1*2^2) + (0*2^3) + (1*2^4) + (1*2^5) + (1*2^6) + (0*2
 
 This means that the range of values that can be represented by an `8-bit unsigned int` data type are 0 to 255 (inclusive).  The min value is of course `0` and the max value is `(2*(2^(n-1))) -1` where `n` is the number of bits used.
 
-Converting an integer to a binary string:
+Converting an integer to a binary string using the process illustrated with the table below.  The left column starts with the integer value.  The middle column is the int divided by 2 (disregard any fractional remainder, so "floor") and the right column is a 1 where the leftmost column is odd.
 
 |int|int/2|binary|significance|
 |---|---|---|---|

@@ -1,12 +1,12 @@
 - Contents
   - [Home](/)
-  - [Bash](bash.md)
   - [cmd](cmd.md)
   - [CompSci](comp-sci.md)
   - [C#](csharp.md)
   - [Docker](docker.md)
   - [git](git.md)
   - [GitHub Actions](actions.md)
+  - [Linux](linux.md)
   - [Markdown](markdown.md)
   - [MochaJS](mocha.md)
   - [NodeJS](node.md)

@@ -22,6 +22,7 @@ The 'Born Again Shell'.  This page is not intended to be a history lesson, but i
 |`ctrl+l`|Clear the output of terminal commands.|
 |`alt+f`|Move the cursor forward one word.|
 |`alt+b`|Move the cursor backware one word.|
+|<letter><tab><tab>|Enter a letter then hit `tab` twice to list all commands beginning with that letter.|
 
 ## Third party resources
 

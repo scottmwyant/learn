@@ -2,6 +2,7 @@
   - [Home](/)
   - [Bash](bash.md)
   - [cmd](cmd.md)
+  - [CompSci](comp-sci.md)
   - [C#](csharp.md)
   - [Docker](docker.md)
   - [git](git.md)

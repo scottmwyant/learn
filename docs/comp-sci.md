@@ -2,11 +2,13 @@
 
 ## Binary representation of integers
 
-I'd argue that this is one of the most foundational concepts in computer science.  Learning how integers are translated to a binary string quickly surfaces an important topic: data type.  There are two characteristics that define data type (when considering integers); number of bits and whether the integer is unsigned (only ever positive) or signed (positive or negative).  In the following exapmles we'll focus on 8-bit integers for the sake of readibility.  The concepts discussed will scale to any size.  Integers are most commonly stored in 8, 16, 32, 64 bits.
+I'd argue that this is one of the most foundational concepts in computer science.  Learning how integers are translated to a binary string quickly surfaces another fundamental topic: data type.  Data types used to represent integers are defined by the number of bits used and whether or not negative values are permitted: *8-bit unsigned integer* and *32-bit signed integer* are examples of integer data types.  The *n-bit* part of the name of course tells you how many bits are used to store a single integer value and the *[un]signed* part of the name tells you if negative values are permitted; if an integer is unsigned, it is always positive.  Integers are most commonly stored in 8, 16, 32, 64 bits.
+
+The data type used determines the range of values that can be represented.  In the following exapmles we'll focus on 8-bit integers for the sake of readibility.  The concepts discussed will scale to any size.  
 
 ### Unsigned integers
 
-The 8-bit unsigned integer is probably the best place to start.  This is a series (think string or array) of 8 binary values (0 or 1).  The values are indexed (identified) 0-7.  The low index, *0*, is the least significant and is on the right end.  The high index, which is the most significant, is on the left end.
+The 8-bit unsigned integer is probably the best place to start.  This is a series (think string or array) of 8 binary values.  The values are indexed 0-7.  The low index, 0, is the least significant and is on the right end.  The high index (7 for the 8-bit example), is the most significant and is on the left end.
 
 |Description|Exapmle|
 |---|---|

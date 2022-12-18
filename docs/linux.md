@@ -40,6 +40,7 @@ The 'Born Again Shell'.  This page is not intended to be a history lesson, but i
 
 - https://repl.it/languages/bash#main.sh
 
+- http://linuxsig.org/files/bash_scripting.html
 
 ## Terminal text editors
 

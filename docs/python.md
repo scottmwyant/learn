@@ -116,13 +116,13 @@ print(txt) # My name is John, I'm 34.
 
 The `.format()` method is called on a template string that contains *replacement fields*.  A replacement field is identified by a pair of curly braces; a simple pair of braces with nothing inbetween, literally `{}`, is a valid replacement field. Replacement fields have three optional parts: *name*, *conversion*, and *format_spec*.  The first part, the name, does not need a delimiter. The second part, the conversion directive, starts with a `!` (exclaimation).  The final part, the format_spec, starts with a `:` (colon).
 
-`{[name][!conversion][:<format_spec>]}`
+`{[<name>][!<conversion>][:<format_spec>]}`
 
-### The replacement field's `name` component 
+### The replacement field's `<name>` component 
 
 The `<name>` component simply indicates which argument from the argument list is inserted into the given location.  The value provided may be a scalar value, a dict or a list.
 
-### The replacement field's `conversion` component
+### The replacement field's `<conversion>` component
 
 This part is identifed by an exclaimation point followed by either an s, r, or a.  This specifies which method is used to convert the passed value to a string.  The default is the `str()` method, which is denonted with `!s`.
 
@@ -132,11 +132,11 @@ This part is identifed by an exclaimation point followed by either an s, r, or a
 |`!r`|convert to string using `repr()`.|
 |`!a`|convert to string using `ascii()`.|
 
-### The replacement field's `format_spec` component
+### The replacement field's `<format_spec>` component
 
-The last part is the `<format_spec>`. This component has a rather complex format.  Note that it is quite common to only use this component.  The component is identified with a `:` (colon).
+The last part is the `<format_spec>`. This component has a rather complex format itself.  Note that it is quite common to only use this component.  The component is identified with a `:` (colon).
 
-`:[[<fill>]<align>][<sign>][#][0][<width>][<group>][<precision>][<type>]`
+`:[<fill>]<align>][<sign>][#][<padUsing>][<width>][<group>][<precision>][<type>]`
 
 |Subcomponent|Effect|
 |---|---|
@@ -145,7 +145,7 @@ The last part is the `<format_spec>`. This component has a rather complex format
 |`<align>`|Specifies how to justify values that don't occupy the entire field width.|
 |`<sign>`|Controls whether a leading sign is included for numeric values.|
 |`#`|Selects an alternate output form for certain presentation types.|
-|`0`|Causes values to be padded on the left with zeros instead of ASCII space.|
+|`<padUsing>`|Causes values to be padded on the left with this character instead of ASCII space.|
 |`<width>`|Specifies the minimum width of the output.|
 |`<group>`|Specifies a grouping character (thousands separator) for numeric output.|
 |`<precision>`|Specifies the number of digits after the decimal point for floating-point presentation types, and the maximum output width for string presentation types.|

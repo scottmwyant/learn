@@ -57,8 +57,7 @@ else:
 i = 0
 while i < 3:   
     count = count + 1
-    print("Hello Geek")
-    
+    print("Hello Geek") 
 ```
 
 ```python

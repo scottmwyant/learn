@@ -136,7 +136,7 @@ This part is identifed by an exclaimation point followed by either an s, r, or a
 
 The last part is the `<format_spec>`. This component has a rather complex format.  Note that it is quite common to only use this component.  The component is identified with a `:` (colon).
 
-`:[[<fill>]<align>][<sign>][#][0][<width>][<group>][<prec>][<type>]`
+`:[[<fill>]<align>][<sign>][#][0][<width>][<group>][<precision>][<type>]`
 
 |Subcomponent|Effect|
 |---|---|
@@ -148,7 +148,7 @@ The last part is the `<format_spec>`. This component has a rather complex format
 |`0`|Causes values to be padded on the left with zeros instead of ASCII space.|
 |`<width>`|Specifies the minimum width of the output.|
 |`<group>`|Specifies a grouping character (thousands separator) for numeric output.|
-|`<perc>`|Specifies the number of digits after the decimal point for floating-point presentation types, and the maximum output width for string presentation types.|
+|`<precision>`|Specifies the number of digits after the decimal point for floating-point presentation types, and the maximum output width for string presentation types.|
 |`<type>`|Specifies presentation type, which is the type of conversion performed on the corresponding argument.|
 
 The `<type>` subcomponent:

@@ -17,7 +17,8 @@ Docker is one implementation of a the industry's concept of "containers".  That 
 Docker can be installed by leveraging `curl`.  Retrieve an install script from https://get.docker.com, save the response as a shell script (get_docker.sh) and run that script.
 
 - Use `docker` to get some help, a list of commands that can be used.
-- Use `docker images ls` to list all images on the host.
+- Use `docker version` to get full version info, use `docker --version` for less verbose output.
+- Use `docker images` to list all images on the host.
 - Use `docker ps` to list containers running on the host.
 - Use `docker ps -a` to list all containers on the host, running or stopped. 
 

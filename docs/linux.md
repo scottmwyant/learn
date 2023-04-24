@@ -84,6 +84,19 @@ https://linuxconfig.org/how-to-start-service-on-boot-on-ubuntu-22-04
 https://www.tecmint.com/set-time-timezone-and-synchronize-time-using-timedatectl-command/
 
 `timedatectl list-timezones` followed by `timedatectl set-timezone "America/New_York"`
+  
+### Setting a custom NTP address
+  
+https://wiki.archlinux.org/title/Systemd-timesyncd
+  
+```
+  sudo nano /etc/systemd/timesyncd.conf
+  sudo timedatectl set-ntp off
+  # timedatectl status
+  sudo timedatectl set-ntp on
+  # timedatectl status
+  # systemctl status systemd-timesyncd
+ ```
 
 ### File permissions
 
@@ -111,3 +124,9 @@ Understanding foreground and background processes. https://linuxconfig.org/bash-
 
 - https://www.cyberciti.biz/faq/linux-port-redirection-with-iptables/
 - https://www.hostinger.com/tutorials/iptables-tutorial
+
+### cron jobs
+
+- The `/etc/crontab` file can be used to run scripts on a custom schedule.  There are defaults set for hourly, daily, weekly, and monthly.  Drop scripts into the appropriate directory, for example `/etc/cron.daily/some_script1`.
+- You can test to verify which scripts will be picked up and run using `sudo run-parts --report --test /etc/cron.daily`
+- [Function of /etc/cron.hourly](https://askubuntu.com/questions/7676/function-of-etc-cron-hourly)

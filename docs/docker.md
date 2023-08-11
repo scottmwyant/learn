@@ -11,6 +11,7 @@ Docker is one implementation of a the industry's concept of "containers".  That 
 ## Official resources
 
 - [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- [Docker engine](https://docs.docker.com/engine/)
 
 ## Getting started
 
@@ -20,9 +21,23 @@ Docker can be installed by leveraging `curl`.  Retrieve an install script from h
 - Use `docker version` to get full version info, use `docker --version` for less verbose output.
 - Use `docker images` to list all images on the host.
 - Use `docker ps` to list containers running on the host.
-- Use `docker ps -a` to list all containers on the host, running or stopped. 
+- Use `docker ps -a` to list all containers on the host, running or stopped.
+
+## Basic workflows
+
+- Download an image from the registry: `docker pull`
+- Create a container from the image: `docker container create -p host:container -v host:container -n mycontainer some/image`
+- Start the container: `docker container start <container-name>`
+
+## Restart policies
+
+- [Start containers automatically](https://docs.docker.com/config/containers/start-containers-automatically/)
 
 ## Third party resources
+
+**Videos**
+
+- [Tim Corey - Intro to Docker](https://youtu.be/WcQ3-M4-jik)
 
 **Podcasts**
 

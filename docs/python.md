@@ -135,7 +135,7 @@ This part is identifed by an exclaimation point followed by either an s, r, or a
 
 The last part is the `<format_spec>`. This component has a rather complex format itself.  Note that it is quite common to only use this component.  The component is identified with a `:` (colon).
 
-`:[<fill>]<align>][<sign>][#][<padUsing>][<width>][<group>][<precision>][<type>]`
+`:[[<fill>]<align>][<sign>][#][<padUsing>][<width>][<group>][.<precision>][<type>]`
 
 |Subcomponent|Effect|
 |---|---|

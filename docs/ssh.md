@@ -36,9 +36,9 @@ Use `ssh-keygen` to generate a pair of keys.  The name of the private key file i
 
 ### On Windows
 
-There is an unfortunate quirk with `ssh-keygen` on Windows.  Trivial once it's understood, it was a significant barrier for me when first attempting to use SSH and one of the reasons I would suggest using WSL2.  The snippet below shows the beginning of the process.  The 3rd line is the kicker, the wording used makes it clear that it's asking for a file but to a Windows user it might look like it's asking for a folder because there is no file extension.  It is indeed asking for the name of a file, the private key file is extension-less.  This input is optional, if you don't specify a directory, the key pair is `C:\Users\me\.ssh\id_rsa` and `C:\Users\me\.ssh\id_rsa.pub`.  The actual behavior conflicts with the last part of the prompt (C:\Users\me/.ssh/id_rsa), which sets the expectation that you need to specify the path to a *file*, which is indeed the case on Linux.  
+There is an unfortunate quirk with `ssh-keygen` on Windows.  Trivial once it's understood, it was a significant barrier for me when first attempting to use SSH and one of the reasons I would suggest using WSL2.  The snippet below shows the beginning of the process.  The 3rd line ("Enter the file in which to save the key...") is the kicker.  It's clearly asking for a file but the default value might appear to be a directory since the last term has no extension.  Realize that it is indeed asking for the name of a file and the default behavior is to create a private key file that is extension-less.  If you don't specify a different value, the key pair is `C:\Users\me\.ssh\id_rsa` and `C:\Users\me\.ssh\id_rsa.pub`.
 
-The seperators used in the prompt are also decidedly sloppy.  You have to recognize that the default private key file in Linux is `~/.ssh/id_rsa` and that the Windows equivalent to the Linux homepath, `~`, is `%USERPROFILE%`.  Considering this OS translation you can see that the default file path shown in the prompt is supposed to be `{whatever the OS considers HOME}/.ssh/id_rsa` but the path seperators used in the prompt must be hard-coded, as they do not change with the environment.
+The path seperators seen in the prompt are decidedly sloppy.  You have to recognize that `~` is the home folder in Linux, equivalent to %USERPROFILE% in Windows.  The default private key file is relative to the user's home folder `.ssh/id_rsa`. You can see the path seperators toward the end of the prompt are not being coerced the native OS variant.
 
 ```
 C:\>ssh-keygen
@@ -99,3 +99,4 @@ ssh-copy-id -i ~/.ssh/mykey user@host
 ## Logging In
 
 Now we should be able to login with a simple `ssh user@host`.
+
